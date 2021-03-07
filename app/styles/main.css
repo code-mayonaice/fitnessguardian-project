@@ -1,0 +1,184 @@
+@import "global.css";
+
+header img{
+    width: 150px;
+}
+
+
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px;
+    margin-right: 20px;
+   
+}
+
+.navbar a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 0.9em;
+    
+}
+
+
+
+.landing-content  h2{
+    position: absolute;
+    bottom:27%;
+    left: 38%;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    font-family: 'Anton', sans-serif;
+    font-size: 2.8em;
+    color: rgb(27, 25, 25); 
+   
+}
+
+.landing-content  h2 span{
+    color: rgb(241, 233, 233);
+    text-shadow: 3px 2px 5px rgb(34, 32, 32);
+ }
+
+.landing-content .btn{
+    position: absolute;
+    bottom: 22%;
+    left: 53%;
+    text-transform: capitalize;
+    padding: 10px;
+    width: 120px;
+    border: none;
+    outline: none;
+    background: rgb(226, 221, 221);
+    box-shadow: 5px 5px 5px rgb(88, 87, 87);
+    text-shadow: 3px 2px 5px rgb(104, 100, 100);
+    color: rgb(19, 18, 18);
+    font-weight: 900;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.landing-content .btn:hover{
+    background: rgb(56, 54, 54);
+    color: #fff;
+}
+
+
+.global{
+    background-color: rgb(148, 143, 143);
+    width: 25%;
+    height: 78%;   
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.global:hover{
+   transform: scale(1.1);
+}
+.global img.circle{
+   width: 60px;
+   transform: rotate(180deg);
+   position: absolute;
+   left: 40%;
+   top: -7%;
+
+}
+
+.global  .mini-logo{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    clip-path: polygon(100% 68%, 0 100%, 100% 100%);
+    position: absolute;
+    top: 0%;
+}
+
+.mini-logo img.logo{
+   width: 90px;
+   position: absolute;
+   bottom: 0%;
+   right: 3%;
+}
+
+
+
+.basic{
+  
+}
+
+.standard{
+     
+}
+
+.premium{
+   
+
+}
+
+.image-section img{
+    width: 290px;
+    height: 100%;
+    animation: slide 10s infinite; 
+}
+
+.boxes-container .box{
+    width: 47%;
+    height: 95%;
+    background-color: rgb(124, 121, 121);
+    border: 2px solid rgb(107, 105, 105);
+    border-radius: 10px;
+    transition: 0.5s;
+} 
+
+.boxes-container .box:hover{
+    transform: scale(1.1);
+}
+
+
+.circle-footer img{
+    width: 130px;
+    
+}
+
+
+/* ***********************  */
+
+@keyframes slide{
+
+  10%{
+      transform: translate(0px);
+  }
+
+  30%{
+      transform: translate(0px);
+  }
+   50%{
+      transform: translateX(-290px);
+   }
+
+   60%{
+    transform: translateX(-290px);
+
+   }
+   
+   70%{
+    transform: translateX(-290px);
+   }
+  
+   80%{
+    transform: translateX(-290px);
+   }
+    
+    90%{
+        transform: translateX(0px);
+    }  
+
+   100%{
+    transform: translateX(0px);
+   }
+
+  
+
+}

@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* ,*::before,*::after{
+    box-sizing: inherit;
+}
+html,body{
+    line-height: 1.5;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.container{
+    width: 100%;
+    height: 4900px;
+}
+
+
+.landing-page{
+    width: 100%;
+    height: 90vh;
+    background-image: url(web-pictures/fitnessbackground.jpg);
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+  
+}
+
+
+.clip{
+    width: 100%;
+    height: 500px;
+    clip-path: polygon(100% 34%, 0% 100%, 100% 100%);
+    background-color: rgb(248, 242, 242);
+    position: absolute;
+    bottom: -1%;
+    z-index: -1;   
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.programs-section{
+   width: 100%;
+   height: 500px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 50px;
+}
+
+
+  
+  .intructor1,.instructor3{
+      width: 60%;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      margin-left: 90px;
+      margin-top: 150px;
+      cursor: pointer;
+      background-color: rgb(29, 32, 32);
+  }
+  .image-section{
+      width: 38%;
+      height: 370px;
+      display: flex;
+      border-radius: 10px;
+      overflow: hidden;
+  }
+
+
+  .testimonilas-section{
+      margin-top: 150px;
+  }
+
+  .intructor2,.instructor4{
+      margin: 150px 0px 0px 500px;
+      width: 60%;
+      background-color: rgb(29, 32, 32);
+      height: 400px;
+      display: flex;
+      align-items: center;
+  }
+
+  .instructor2testtimonial,.instructor4testtimonial{
+      width: 55%;
+  }
+
+  .contact-section{
+      margin-top: 150px;
+     position: relative;
+  }
+
+  .bgsection{
+      width: 100%;
+      height: 300px;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content:space-between;
+      
+  }
+
+  .right-clip{
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+    background-color: rgb(250, 249, 249);
+    width: 35%;
+    height: 298px;
+  }
+ .left-clip{
+     background-color: rgb(243, 239, 239);
+     width: 35%;
+     height: 298px;
+     clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+ }
+.boxes-container{
+    width: 60%;
+    height: 440px;
+    position: absolute;
+    top: 148%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.aboutus-footer-section{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 400px;
+ 
+}
+
+.footer-links{
+    width: 100%;
+    height: 70px;
+    background-color: #999;
+}
+
+.aboutus-footer-section{
+    position: relative;
+}
+
+
+.circle-footer{
+    border-radius: 50%;
+    background-color: rgb(39, 41, 41);
+    width: 9%;
+    height: 25%;
+    position: absolute;
+    right: 5%;
+    bottom: 3%;
+}
+
