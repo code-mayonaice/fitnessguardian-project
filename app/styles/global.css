@@ -11,12 +11,24 @@
 html,body{
     line-height: 1.5;
     font-size: 100%;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* *************** variables ************ */
+:root{
+
+    --clip-path-background-color:rgb(241, 233, 233);
+    --box-background-color: rgb(36, 35, 35);
+    --black-background:rgb(31, 30, 30);
+    --text-color:rgb(207, 203, 203);
+    --text-font: 'Poppins', sans-serif;
 }
 
 .container{
     width: 100%;
-    height: 4900px;
+    height:100%;
 }
 
 
@@ -27,7 +39,6 @@ html,body{
     position: relative;
     z-index: 1;
     background-attachment: fixed;
-  
 }
 
 
@@ -35,6 +46,7 @@ html,body{
     width: 100%;
     height: 500px;
     clip-path: polygon(100% 34%, 0% 100%, 100% 100%);
+    -webkit-clip-path:polygon(100% 34%, 0% 100%, 100% 100%);
     background-color: rgb(248, 242, 242);
     position: absolute;
     bottom: -1%;
@@ -57,23 +69,15 @@ header{
    display: flex;
    justify-content: space-around;
    align-items: center;
-   margin-top: 50px;
+   font-size: 0.9em;
+   text-transform: capitalize;
+   font-family: var( --text-font);
+   color: var(--text-color);
+   
 }
-
-
-  
-  .intructor1,.instructor3{
-      width: 60%;
-      height: 400px;
-      display: flex;
-      align-items: center;
-      margin-left: 90px;
-      margin-top: 150px;
-      cursor: pointer;
-      background-color: rgb(29, 32, 32);
-  }
+ 
   .image-section{
-      width: 38%;
+      width: 280px;
       height: 370px;
       display: flex;
       border-radius: 10px;
@@ -83,20 +87,41 @@ header{
 
   .testimonilas-section{
       margin-top: 150px;
+      width: 90%;
+      margin: auto;
+      height: 3000px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      position: relative;
   }
 
   .intructor2,.instructor4{
-      margin: 150px 0px 0px 500px;
-      width: 60%;
-      background-color: rgb(29, 32, 32);
-      height: 400px;
-      display: flex;
-      align-items: center;
+      margin-left: 30%;
   }
 
-  .instructor2testtimonial,.instructor4testtimonial{
-      width: 55%;
+   .all{   
+    margin-top: 200px;
+    width: 75%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+   }
+
+   
+  .instructortesttimonial{
+      width: 400px;
+      height: 90%;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items:center ;
+      line-height: 1.7;
+   
   }
+
 
   .contact-section{
       margin-top: 150px;
@@ -106,27 +131,18 @@ header{
   .bgsection{
       width: 100%;
       height: 300px;
-      background-color: black;
+      background-image: linear-gradient(to right,rgba(224, 219, 219, 0.315),rgba(17, 17, 17, 0.479)),url(web-pictures/gym-banner.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
       display: flex;
       align-items: center;
-      justify-content:space-between;
+      justify-content:center;
       
   }
 
-  .right-clip{
-    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
-    background-color: rgb(250, 249, 249);
-    width: 35%;
-    height: 298px;
-  }
- .left-clip{
-     background-color: rgb(243, 239, 239);
-     width: 35%;
-     height: 298px;
-     clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
- }
+
 .boxes-container{
-    width: 60%;
+    width: 42%;
     height: 440px;
     position: absolute;
     top: 148%;
