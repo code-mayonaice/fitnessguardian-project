@@ -1,0 +1,131 @@
+
+
+
+@media (max-width: 1189px){
+   .landing-content{
+       font-size: 0.9em;
+   }
+}
+
+@media (max-width: 1166px){
+    .landing-content{
+        font-size: 0.8em;
+    }
+
+   .instructortesttimonial p{
+        font-size: 0.9em;
+        text-align: center;
+   }
+
+   .instructortesttimonial .text {
+        margin-left: 10px;
+   }
+   
+   .instructortesttimonial  .big-box{
+       width: 400px;
+       height: 67%;
+   }
+
+   .instructortesttimonial  .big-left-position{
+       left: 45%;
+   }
+
+   .instructortesttimonial  .big-right-position{
+       top: 18%;
+   }
+
+   .boxes-container{
+           width: 50%;
+    }
+ } 
+
+ @media (max-width: 1053px){
+
+    .instructortesttimonial .text {
+        margin-left: 20px;
+   }
+   
+   .smallbox-bottom{
+    width: 15%;
+    height: 20%;
+
+   }
+    
+ }
+
+ @media (max-width: 984px){
+
+    .smallbox-bottom{
+        display: none;
+    }
+
+    .global img.circle{
+        display: none;
+    }
+
+    .smallbox-top{
+        display: none;
+    }
+
+    .instructortesttimonial .text {
+        margin-left: 30px;
+   }
+
+   .boxes-container{
+    width: 60%;
+    }
+
+    .programs-section h3{
+       z-index: 5;
+    }
+
+    .additional-info{
+          font-size: 0.7em;
+    }
+
+    .circle-footer img{
+        width: 110px;
+    }
+    
+
+ }
+
+
+ @media (max-width: 756px){
+
+    .hamburger-menu{
+        display: block;
+        position: absolute;
+        top: 8%;
+        right: 3%;
+    }
+    .navbar{
+        display: none;
+    }
+
+    .landing-content  h2{
+       right: 40%;
+       color: #fff;
+        
+    }  
+  
+    .landing-content .btn{
+        right: 20%;
+        left: -30%;
+        
+    }
+     .additional-info li{
+         border: none;
+     }
+
+     .sidenavigaton{
+         display: block;
+         
+     }
+
+     header img{
+       margin-top: -380px;
+    }
+    
+    
+ }

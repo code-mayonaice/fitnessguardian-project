@@ -5,7 +5,7 @@
 
 /* ******************updated****************** */
 header img{
-    width: 150px;
+    width: 15%;
 }
 
 
@@ -42,6 +42,33 @@ header img{
     font-family: 'Poppins', sans-serif;
 }
 
+.navlinks-active{
+    transform: translateX(20%);
+}
+
+
+.hamburger-menu img{
+    width: 30px;
+}
+
+
+.navlinks a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidenavigaton .remover{
+   color: azure;
+   font-size: 2.3em;
+   position: absolute;
+   left: 3%;
+   top: 3%;
+}
+.sidenavigaton .remover:hover{
+    color: #999;
+}
 
 .landing-content  h2{
     position: absolute;
@@ -121,6 +148,7 @@ header img{
     font-size: 1em;
     padding: 2px;
 }
+
 .global:hover{
    transform: scale(1.1);
 }
@@ -285,7 +313,7 @@ bottom: 10%;
     text-align: center;
     text-transform: capitalize;
     font-size: 1.4em;
-    color: rgb(46, 45, 45);
+    color: rgb(156, 151, 151);
 }
 
 .box .contact-info{
@@ -299,8 +327,7 @@ bottom: 10%;
     color: var(--text-color);
 }
 .circle-footer img{
-    width: 130px;
-    
+    width: 120px;
 }
 
 .footer-info h1{
