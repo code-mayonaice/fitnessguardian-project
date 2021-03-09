@@ -13,6 +13,7 @@ html,body{
     font-size: 100%;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 
@@ -20,11 +21,30 @@ html,body{
 :root{
 
     --clip-path-background-color:rgb(241, 233, 233);
-    --box-background-color: rgb(36, 35, 35);
+    --box-background-color: rgb(102, 99, 99);
     --black-background:rgb(31, 30, 30);
-    --text-color:rgb(207, 203, 203);
+    --text-color:rgb(243, 241, 241);
     --text-font: 'Poppins', sans-serif;
 }
+
+::-webkit-scrollbar{
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+      background-color: white;
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgb(159, 159, 160);
+}
+
 
 .container{
     width: 100%;
@@ -158,8 +178,31 @@ header{
     height: 400px;
     background-color: black;
     margin-top: 400px;
- 
+    font-family: var(--text-font);
+    color: var(--text-color);
 }
+
+.footer-infoholder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9em;
+    
+}
+
+.footer-info{
+   margin-top: 30px;
+}
+ 
+.additional-info{
+    width: 90%;
+    margin: auto;
+    height: 70px;
+    margin-top: 70px;
+    text-transform: capitalize;
+    font-size: 0.9em;
+}
+
 
 .footer-links{
     width: 100%;
@@ -182,3 +225,9 @@ header{
     bottom: 3%;
 }
 
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
