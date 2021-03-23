@@ -1,0 +1,11 @@
+
+/* *************** variables ************ */
+:root{
+
+    --clip-path-background-color:rgb(241, 233, 233);
+    --box-background-color: rgb(29, 28, 28);
+    --black-background:rgb(31, 30, 30);
+    --text-color:rgb(243, 241, 241);
+    --text-font: 'Poppins', sans-serif;
+}
+
