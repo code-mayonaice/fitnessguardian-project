@@ -89,6 +89,7 @@ header{
     background-color: rgb(21, 22, 22);
     transform: translateX(130%);
     transition: 1s ease-in-out;
+    z-index: 2;
     display: none;
 }
 
